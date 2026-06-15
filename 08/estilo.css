@@ -1,42 +1,44 @@
 
 body {
-    background: #d6d6d6;
+    background-color: #d6d6d6;
+    font-family: Arial, sans-serif;
+    padding: 20px;
 }
 
 
-.container {
+.galeria-container {
     display: flex;
     flex-wrap: wrap;
+    width: 850px;    
+    margin-bottom: 20px;
 }
 
-.noticia {
-    font-family: "opensans-regular", arial, sans-serif;
-    background-color: #F5F5DC; 
-    border: 1px solid black;
-    color: #333;
-    font-size: 16px;
-    padding-left: 15px;
-    padding-right: 10px;
+ 
+.box {
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 5px;
+    margin: 10px;
+}
+
+.box img {
+    width: 100%;
+    height: 180px; 
+    display: block;
+}
+
+
+.box p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+}
+
+
+.texto-rodape {
+    width: 830px; 
     text-align: justify;
-    line-height: 24px;
-    width: 500px;
-    margin: 20px;
-}
-
-
-.noticia h1 {
-    color: #c4170c;  
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    margin: 8px;
-}
-*/
-.imagem {
-    float: left;
-    width: 200px;
-    padding: 10px;
-}
-
-/* O comando clear obriga o texto do Lorem Ipsum a ir para BAIXO da imagem (Slide 25) */
-.noticia p {
-    clear: both;
+    line-height: 1.4;
+    font-size: 13px;
+    padding-left: 10px;
 }
