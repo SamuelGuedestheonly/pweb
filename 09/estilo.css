@@ -1,0 +1,40 @@
+/* Configuração do fundo da página - Slide 18 */
+body {
+    background: #61bd8c;
+}
+
+/* Configuração do Container Principal (Centralizado) - Slide 18 e 20 */
+#conteudo {
+    background: #FFFFFF;
+    padding: 10px;
+    width: 900px;
+    margin: 30px auto; /* Centraliza o elemento na horizontal */
+}
+
+/* Configuração Base Comum para as Caixas Vermelhas - Slide 21 */
+.box {
+    background: red;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    color: #FFFFFF;
+}
+
+/* Posicionamento Relativo - Slide 24 */
+#relativo {
+    position: relative;
+    left: 30px;
+}
+
+/* Posicionamento Absoluto - Slide 24 */
+#absoluto {
+    position: absolute;
+    left: 30px;
+}
+
+/* Posicionamento Fixo - Slide 24 */
+#fixo {
+    position: fixed;
+    left: 200px;
+    top: 0px;
+}
