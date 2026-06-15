@@ -3,13 +3,15 @@ body {
     background: #d6d6d6;
 }
 
+
 .container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .noticia {
     font-family: "opensans-regular", arial, sans-serif;
-    background-color: #F5F5DC;
+    background-color: #F5F5DC; 
     border: 1px solid black;
     color: #333;
     font-size: 16px;
@@ -21,19 +23,20 @@ body {
     margin: 20px;
 }
 
+
 .noticia h1 {
-    color: #c4170c;
+    color: #c4170c;  
     font-family: "Helvetica Neue", Arial, sans-serif;
     margin: 8px;
 }
-
-
+*/
 .imagem {
-    float: right;
+    float: left;
     width: 200px;
     padding: 10px;
 }
 
+/* O comando clear obriga o texto do Lorem Ipsum a ir para BAIXO da imagem (Slide 25) */
 .noticia p {
     clear: both;
 }
