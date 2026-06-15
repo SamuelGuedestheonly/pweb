@@ -1,0 +1,23 @@
+nav {
+    background: #EEE685;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+a:link {
+    color: #b9c941;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #458B00;
+}
+
+a:hover {
+    color: #8b4726;
+}
+
+a:active {
+    color: #FF1493;
+}
